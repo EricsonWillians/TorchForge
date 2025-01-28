@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "TorchForge"
+version = "0.1.0"
+description = "Forge PyTorch/Hugging Face models with minimal code"
+authors = ["Ericson Willians <ericsonwillians@protonmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+lark = "^1.1.2"
+jinja2 = "^3.1.2"
+torch = "^2.0.0"
+transformers = "^4.28.1"
+datasets = "^2.11.0"
+typer = "^0.9.0"
+rich = "^13.3.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.2"
+mypy = "^1.0.0"
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
